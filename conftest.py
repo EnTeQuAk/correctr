@@ -37,7 +37,7 @@ def generate_words():
                     word,
                     ''.join(random.choice((str.upper, str.lower))(char) for char in word)
                 ))
-            elif idx % 9:
+            elif idx % 11:
                 x = ''.join([char * random.randint(0, 3) or char for char in x])
                 x = x.translate(str.maketrans('aei', 'iea'))
                 x = ''.join(random.choice((str.upper, str.lower))(char) for char in x)
