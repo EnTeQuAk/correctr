@@ -4,11 +4,14 @@ correctr
 
 .. code-block:: bash
 
+    $ # Clone repository
+    $ git clone https://github.com/EnTeQuAk/correctr
+
     $ # create a new virtualenv
     $ mkvirtualenv correctr
 
     $ # install
-    $ pip install -e git+https://github.com/EnTeQuAk/correctr/
+    $ python setup.py develop
 
     $ # run spellcorrecter shell
     $ correctr
