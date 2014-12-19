@@ -7,7 +7,7 @@ correctr
     $ # Clone repository
     $ git clone https://github.com/EnTeQuAk/correctr
 
-    $ # create a new virtualenv
+    $ # create a new virtualenv (Note: Python 3.4 if possible, py2 is not supported)
     $ mkvirtualenv correctr
 
     $ # install
