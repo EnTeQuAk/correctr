@@ -20,8 +20,6 @@ setup(
     author_email='cg@webshox.org',
     url='https://github.com/EnTeQuAk/correctr',
     packages=find_packages(exclude=('tests',)),
-    package_dir={
-        'correctr': 'correctr'},
     include_package_data=True,
     install_requires=['TextBlob', 'pytest'],
     license="BSD",
